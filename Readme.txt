@@ -1,9 +1,10 @@
-# WebTracker
+
+ # WebTracker
 
 WebTracker is a browser extension that allows you to scan domains and URLs to determine whether they are malicious. It leverages advanced algorithms and threat databases to provide accurate and reliable results, helping you stay safe online and protect your data from malicious threats.
 
 ## 🔍 Preview
-![Preview](https://imgur.com/a/moSpYq5.jpg)
+![Preview](https://imgur.com/iUicAAm.png)
 
 ## 🚀 Features
 - ✅ Scan domains & URLs for malicious threats  
