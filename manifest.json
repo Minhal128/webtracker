@@ -17,5 +17,9 @@
     "action": {
         "default_popup": "index.html",
         "default_title": "WebTracker"
-    }
+    },
+    "web_accessible_resources": [{
+        "resources": ["warning.html"],
+        "matches": ["<all_urls>"]
+    }]
 }

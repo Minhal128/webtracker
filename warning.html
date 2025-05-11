@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Warning</title>
+    <style>
+        body { padding: 20px; text-align: center; font-family: Arial, sans-serif; }
+        h1 { color: #cc0000; }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        button:hover { background-color: #45a049; }
+        .url { word-break: break-all; padding: 15px; background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h1>⚠️ Security Warning</h1>
+    <p>The website <strong id="domain"></strong> has been flagged as potentially unsafe.</p>
+    <div class="url" id="url"></div>
+    <button id="proceed-btn">Proceed Anyway</button>
+    <p style="color: #666;">You are seeing this warning because this site might contain malicious content.</p>
+    <script src="warning.js"></script>
+</body>
+</html>
